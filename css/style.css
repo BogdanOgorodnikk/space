@@ -182,3 +182,55 @@ body {
   font-weight: 400;
   font-size: 20px;
   color: #8c8c92; }
+
+.about {
+  margin-top: 45px; }
+
+.about__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.about__item--type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.about__type--icon {
+  width: 34px;
+  height: 34px;
+  background: #767676;
+  border-radius: 4px;
+  text-align: center; }
+
+.about__fa--icon {
+  color: #e7e8ea;
+  font-size: 20px;
+  margin-top: 6px; }
+
+.about__item--name {
+  margin-left: 10px;
+  margin-top: -4px; }
+
+.about__name--headline {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: #505050; }
+
+.about__name--info {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #5f7390; }
+
+.about__describe {
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #505050;
+  max-width: 322px; }

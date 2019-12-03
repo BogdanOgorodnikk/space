@@ -103,12 +103,6 @@ body {
     text-align: right;
     margin-top: 28px;
 }
-// .right__slider .owl-nav {
-//     margin-top: -500px;
-//     position: absolute;
-//     text-align: right;
-//     left: 97%;
-// }
 .banner__slider .owl-nav {
     position: relative;
 }
@@ -150,4 +144,41 @@ body {
     margin-top: 8px;
     margin-bottom: 8px;
     @include general-font(400, 20px, #8c8c92);
+}
+.about {
+    margin-top: 45px;
+}
+.about__box {
+    display: flex;
+    justify-content: space-between;
+}
+.about__item--type {
+    display: flex;
+}
+.about__type--icon {
+    width: 34px;
+    height: 34px;
+    background: #767676;
+    border-radius: 4px;
+    text-align: center;
+}
+.about__fa--icon {
+    color: #e7e8ea;
+    font-size: 20px;
+    margin-top: 6px;
+}
+.about__item--name {
+    margin-left: 10px;
+    margin-top: -4px;
+}
+.about__name--headline {
+    @include general-font(300, 25px, #505050);
+}
+.about__name--info {
+    @include general-font(400, 15px, #5f7390);
+}
+.about__describe {
+    margin-top: 20px;
+    @include general-font(400, 14px, #505050);
+    max-width: 322px;
 }
