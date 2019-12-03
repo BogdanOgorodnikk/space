@@ -182,3 +182,57 @@ body {
     @include general-font(400, 14px, #505050);
     max-width: 322px;
 }
+.bar {
+    margin-top: 36px;
+    margin-bottom: 100px;
+}
+.bar__box {
+    max-width: 700px;
+    border-top: 1px solid #dedee0;
+    border-bottom: 1px solid #dedee0;
+    margin-left: auto;
+    margin-right: auto;
+    background: radial-gradient(40% 50%, #ecedee, #e8e9eb);
+}
+.bar__info {
+    text-align: center;
+    @include general-font(400, 16px, #828181);
+    max-width: 550px;
+    margin: 15px auto;
+}
+.bar__info--important {
+    color: #687b96;
+}
+.bar__slider .owl-nav {
+    position: relative;
+}
+.bar__slider .owl-nav :focus {
+    outline: none;
+}
+.bar__slider .owl-next,
+.bar__slider .owl-prev {
+    display: block;
+    text-align: center;
+    width: 22px;
+    height: 25px;
+    position: absolute;
+    top: -48px;
+}
+.bar__slider .owl-prev {
+    background-image: url(../img/navleft.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+.bar__slider .owl-next {
+    background-image: url(../img/navright.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+.bar__slider .owl-next {
+    left: 80%;
+}
+.bar__slider .owl-prev {
+    left: 18%;
+}
