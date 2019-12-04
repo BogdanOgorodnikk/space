@@ -19,10 +19,10 @@ body {
   margin: 0 auto; }
 
 .body-background {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #1d1d30), to(#e7e8ea));
-  background: -webkit-linear-gradient(#1d1d30 10%, #e7e8ea);
-  background: -o-linear-gradient(#1d1d30 10%, #e7e8ea);
-  background: linear-gradient(#1d1d30 10%, #e7e8ea);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(13%, #1d1d30), color-stop(34%, #e7e8ea));
+  background: -webkit-linear-gradient(#1d1d30 13%, #e7e8ea 34%);
+  background: -o-linear-gradient(#1d1d30 13%, #e7e8ea 34%);
+  background: linear-gradient(#1d1d30 13%, #e7e8ea 34%);
   overflow: hidden; }
 
 .header__menu {
@@ -367,3 +367,184 @@ body {
   padding: 12px 36px;
   cursor: pointer;
   border-radius: 8px; }
+
+.elya {
+  margin-top: 45px;
+  margin-bottom: 32px; }
+
+.elya__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #d7d8da;
+  border-bottom: 1px solid #d7d8da; }
+
+.elya__plus {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #d0d0d1;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  margin-left: 4px; }
+
+.elya__plus--icon {
+  font-size: 10px;
+  color: #828181;
+  position: absolute;
+  top: 2px;
+  left: 2px; }
+
+.elya__headline {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #828181;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 10px;
+  cursor: pointer; }
+
+.elya__text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.none {
+  display: none; }
+
+.footer {
+  background: #353546;
+  overflow: hidden; }
+
+.footer-top {
+  margin-top: 15px; }
+
+.footer-top__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.footer-top__text {
+  margin-left: 36px; }
+
+.footer-top__describe {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #ababb1;
+  margin-top: 8px; }
+
+.footer-top__version {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #c3c3c7;
+  text-align: right; }
+
+.footer-top__line {
+  background: #535366;
+  height: 1px;
+  width: 100%;
+  margin-top: 5px; }
+
+.footer-bottom {
+  margin-top: 18px; }
+
+.footer-bottom__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.footer-bottom__headline {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #fff; }
+
+.footer-bottom__describe {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #b7b7bb;
+  max-width: 364px;
+  margin-top: 18px; }
+
+.footer-bottom__form-search {
+  margin-top: 20px; }
+
+.form-search__input {
+  width: 210px;
+  padding: 8px 10px;
+  background: #242439;
+  border: 1px solid #12121d;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5e5e6a; }
+
+.form-search__input::-webkit-input-placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5e5e6a; }
+
+.form-search__input:-ms-input-placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5e5e6a; }
+
+.form-search__input::-ms-input-placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5e5e6a; }
+
+.form-search__input::placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5e5e6a; }
+
+.form-search__input:focus {
+  outline: none; }
+
+.form__submit {
+  padding: 8px 12px;
+  background: #e7e8ea;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #363648;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px; }
+
+.form__submit:focus {
+  outline: none; }
+
+.form-search__submit {
+  margin-left: 16px; }
+
+.footer-bottom__contact {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #fff; }
+
+.footer-bottom__contact-form {
+  margin-top: 12px; }

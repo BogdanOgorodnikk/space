@@ -11,4 +11,8 @@ $(document).ready(function(){
     navText: ["",""],
     loop: true
   });
+  $('.elya__head').on('click', function(){
+    var find = $(this).next('.elya__text');
+    find.slideToggle();
+  });
 });
