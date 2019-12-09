@@ -24,8 +24,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 .container {
-  max-width: 1000px;
+  max-width: 1020px;
   margin: 0 auto;
+  padding: 0px 10px;
 }
 .body-background {
     background: linear-gradient(#1d1d30 13%, #e7e8ea 34%);
@@ -151,6 +152,7 @@ body {
 .about__box {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .about__item--type {
     display: flex;
@@ -327,9 +329,6 @@ body {
     @include general-font(400, 14px, #000);
     margin-top: 5px;
     margin-bottom: 5px;
-}
-.none {
-    display: none;
 }
 .footer {
     background: #353546;
@@ -590,4 +589,145 @@ body {
 }
 .product-banner__slider .owl-prev {
     right: 102%;
+}
+.product-hot {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.product-hot__menu {
+    display: flex;
+}
+.product-hot__item--button {
+    @include general-font(400, 18px, #fff);
+    padding: 8px 20px;
+    cursor: pointer;
+    border: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-left: 6px;
+}
+.product-hot__item--button:first-child {
+    margin-left: 0px;
+}
+.product-hot__item--button:focus {
+    outline: none;
+}
+.product-hot__item--active {
+    background: #383849;
+}
+.product-hot__item--disactive {
+    background: #c7c7c8;
+}
+.product-hot__line {
+    width: 100%;
+    height: 1px;
+    background: #bfc0c5;
+}
+.product-hot__popular {
+    display: flex;
+    flex-wrap: wrap;
+}
+.popular__item--box {
+    display: flex;
+}
+.product-hot__popular--item {
+    width: 254px;
+    margin-top: 60px;
+    margin-right: 98px;
+}
+.product-hot__popular--item:nth-child(3n) {
+    margin-right: 0px;
+}
+.popular__item--photo {
+    margin-right: 12px;
+}
+.popular__item--headline {
+    @include general-font(400, 22px, #505050);
+}
+.popular__item--describe {
+    @include general-font(400, 13px, #5f7390);
+}
+.popular__item--button {
+    @include general-font(400, 18px, #fff);
+    padding: 6px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background: #383849;
+    margin-top: 8px;
+}
+.product-hot__recent {
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-nav {
+	border: 0;
+	background: none;
+	padding: 0.7rem;
+	cursor: pointer;
+	border-radius: 0.2rem;
+}
+.btn-nav:hover {
+	background: #dadada;
+}
+.btn-nav__line {
+	display: block;
+	width: 20px;
+	height: 2px;
+	border-radius: 1px;
+	background: #000;
+	margin-bottom: 3px;
+}
+.btn-nav__line:last-child {
+	margin-bottom: 0;
+}
+.nav__btn {
+	text-align: left;
+	margin: 0.7rem 0;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.none {
+    display: none;
 }

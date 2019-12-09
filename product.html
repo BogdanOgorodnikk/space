@@ -18,7 +18,14 @@
                         <a href="#"><img src="img/logo.png" alt=""></a>
                     </div>
                     <nav class="nav">
-                        <ul class="nav__list">
+                        <div class="nav__btn">
+                            <button data-target="#nav-main" type="button" class="btn-nav">
+                                <span class="btn-nav__line"></span>
+                                <span class="btn-nav__line"></span>
+                                <span class="btn-nav__line"></span>
+                            </button>
+                        </div>
+                        <ul class="nav__list" id="nav-main">
                             <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
                             <li class="nav__item"><a class="nav__link" href="#">ipad apps</a></li>
                             <li class="nav__item"><a class="nav__link" href="#">Demonstrations</a></li>
@@ -80,14 +87,100 @@
                     <section class="product-hot">
                         <div class="container-padding">
                             <div class="product-hot__menu">
-                                <div class="product-hot__item">
-                                    <button class="product-hot__item--button">Most Popular</button>
-                                </div>
-                                <div class="product-hot__item">
-                                    <button class="product-hot__item--button">Recent</button>
-                                </div>
+                                    <button id="show__popular" class="product-hot__item--button product-hot__item--active">Most Popular</button>
+                                    <button id="show__recent" class="product-hot__item--button product-hot__item--disactive">Recent</button>
                             </div>
                             <div class="product-hot__line"></div>
+                            <div class="product-hot__general-box">
+                                <div class="product-hot__type product-hot__popular show__popular">
+                                    <div class="product-hot__popular--item">
+                                        <div class="popular__item--box">
+                                            <div class="popular__item--photo">
+                                                <img src="img/popular.png" alt="">
+                                            </div>
+                                            <div class="popular__item--info">
+                                                <h2 class="popular__item--headline">iphone apps</h2>
+                                                <p class="popular__item--describe">Lorem Ipsum is simply</p>
+                                                <button class="popular__item--button">Read More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-hot__popular--item">
+                                        <div class="popular__item--box">
+                                            <div class="popular__item--photo">
+                                                <img src="img/popular.png" alt="">
+                                            </div>
+                                            <div class="popular__item--info">
+                                                <h2 class="popular__item--headline">iphone apps</h2>
+                                                <p class="popular__item--describe">Lorem Ipsum is simply</p>
+                                                <button class="popular__item--button">Read More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-hot__popular--item">
+                                        <div class="popular__item--box">
+                                            <div class="popular__item--photo">
+                                                <img src="img/popular.png" alt="">
+                                            </div>
+                                            <div class="popular__item--info">
+                                                <h2 class="popular__item--headline">iphone apps</h2>
+                                                <p class="popular__item--describe">Lorem Ipsum is simply</p>
+                                                <button class="popular__item--button">Read More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-hot__popular--item">
+                                        <div class="popular__item--box">
+                                            <div class="popular__item--photo">
+                                                <img src="img/popular.png" alt="">
+                                            </div>
+                                            <div class="popular__item--info">
+                                                <h2 class="popular__item--headline">iphone apps</h2>
+                                                <p class="popular__item--describe">Lorem Ipsum is simply</p>
+                                                <button class="popular__item--button">Read More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-hot__popular--item">
+                                        <div class="popular__item--box">
+                                            <div class="popular__item--photo">
+                                                <img src="img/popular.png" alt="">
+                                            </div>
+                                            <div class="popular__item--info">
+                                                <h2 class="popular__item--headline">iphone apps</h2>
+                                                <p class="popular__item--describe">Lorem Ipsum is simply</p>
+                                                <button class="popular__item--button">Read More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-hot__type product-hot__recent show__recent">
+                                    <div class="product-hot__popular--item">
+                                        <div class="popular__item--box">
+                                            <div class="popular__item--photo">
+                                                <img src="img/popular.png" alt="">
+                                            </div>
+                                            <div class="popular__item--info">
+                                                <h2 class="popular__item--headline">iphone apps</h2>
+                                                <p class="popular__item--describe">Lorem Ipsum is simply</p>
+                                                <button class="popular__item--button">Read More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-hot__popular--item">
+                                        <div class="popular__item--box">
+                                            <div class="popular__item--photo">
+                                                <img src="img/popular.png" alt="">
+                                            </div>
+                                            <div class="popular__item--info">
+                                                <h2 class="popular__item--headline">iphone apps</h2>
+                                                <p class="popular__item--describe">Lorem Ipsum is simply</p>
+                                                <button class="popular__item--button">Read More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </section>
                 </div>
