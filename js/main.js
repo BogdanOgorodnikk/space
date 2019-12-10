@@ -15,7 +15,18 @@ $(document).ready(function(){
     items: 3,
     nav: true,
     navText: ["&#9668;","&#9658;"],
-    loop: true
+    loop: true,
+    responsive:{ //Адаптация в зависимости от разрешения экрана
+      0:{
+          items:1
+      },
+      700:{
+          items:2
+      },
+      900:{
+          items:3
+       }
+  }
   });
   $('.elya__head').on('click', function(){
     var find = $(this).next('.elya__text');
