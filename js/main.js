@@ -3,19 +3,25 @@ $(document).ready(function(){
     items: 1,
     nav: true,
     navText: ["&#9668;","&#9658;"],
-    loop: true
+    loop: true,
+    autoplay: true, 
+    autoplayTimeout: 5000
   });
   $(".bar__slider").owlCarousel({
     items: 1,
     nav: true,
     navText: ["",""],
-    loop: true
+    loop: true,
+    autoplay: true, 
+    autoplayTimeout: 5000
   });
   $(".product-banner__slider").owlCarousel({
     items: 3,
     nav: true,
     navText: ["&#9668;","&#9658;"],
     loop: true,
+    autoplay: true, 
+    autoplayTimeout: 5000,
     responsive:{ //Адаптация в зависимости от разрешения экрана
       0:{
           items:1
