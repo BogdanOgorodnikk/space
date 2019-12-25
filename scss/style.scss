@@ -686,15 +686,53 @@ body {
 	margin: 0.7rem 0;
 	display: none;
 }
-
-
-
-
-
-
-
-
-
+.product-ipad__image {
+    margin-right: 45px;
+}
+.general-box {
+    margin-top: 65px;
+}
+.general-box__background {
+    background: #edeeef;
+    border: 1px solid #d9d9da;
+    max-width: 780px;
+    margin: 0 auto;
+}
+.product-number {
+    margin-top: -16px;
+}
+.product-number__box {
+    display: flex;
+    justify-content: center;
+}
+.product-number__item {
+    background: #60616d;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-left: 84px;
+    text-align: center;
+    cursor: pointer;
+}
+.product-number__item:first-child {
+    margin-left: 0px;
+}
+.product-number__item--num {
+    @include general-font(400, 20px, #fff);
+    margin-top: 5px;
+}
+.product-number__item:hover {
+    background: #134086;
+}
+.product-number__line {
+    border: 1px solid #c7c8cb;
+    background: #d8d8db;
+    width: 328px;
+    height: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}
 
 
 
