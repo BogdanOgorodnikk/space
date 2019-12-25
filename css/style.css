@@ -800,6 +800,13 @@ body {
 .product-banner__button {
   margin-top: 22px; }
 
+.product-banner__link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none; }
+
 .product-banner__slider {
   margin-left: 54px; }
 
@@ -998,6 +1005,89 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: -20px; }
+
+.product-variator {
+  margin-top: 34px; }
+
+.product-variator__headline {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  color: #505050; }
+
+.product-variator__describe {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #5f7390; }
+
+.product-variator__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 38px;
+  margin-bottom: 38px; }
+
+.product-variator__item {
+  margin-left: 78px;
+  background: #3f3f4e;
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  cursor: pointer;
+  text-align: center; }
+
+.product-variator__item:hover {
+  background: #134086; }
+
+.product-variator__item:first-child {
+  margin-left: 0px; }
+
+.product-variator__item--icon {
+  font-size: 58px;
+  color: #e7e8ea;
+  margin-top: 18px; }
+
+.product-variator__info {
+  margin-left: 45px; }
+
+.product-variator__info--headline {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  color: #505050; }
+
+.product-variator__info--describe {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #828181;
+  margin-top: 16px; }
+
+.product-ipad {
+  margin-top: 56px; }
+
+.general-box {
+  margin-bottom: 28px; }
+
+.product-conclusion {
+  margin-left: 45px;
+  margin-top: 40px; }
+
+.product-conclusion__photo {
+  margin-right: 80px; }
+
+.product-conclusion__headline {
+  font-size: 17px;
+  text-align: left; }
+
+.product-conclusion {
+  margin-bottom: 38px; }
 
 .none {
   display: none; }

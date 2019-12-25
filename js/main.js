@@ -60,5 +60,12 @@ $(document).ready(function(){
   $(".btn-nav").on("click", function() {
     var target = $(this).data("target");
     $(target).toggleClass("nav__list--open");
-});
+  });
+  $('.product-variator__item').on('click', function() {
+    var get_id = this.id;
+    var get_current = $('.product-variator__general-box .' + get_id);
+
+    $('.product-variator__info').not(get_current).hide(500);
+    get_current.show(500);
+  });
 });
